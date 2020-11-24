@@ -24,7 +24,7 @@ function Show(){
         this.main.style.transition = "opacity 1.2s";
 
         this.background_Color.style.width = "375px";
-        this.background_Color.style.marginTop = "-40rem";
+        this.background_Color.style.marginTop = "-50rem";
         this.background_Color.style.transition = "all 0.7s";
         status = true
     }
