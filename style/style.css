@@ -1,0 +1,620 @@
+header {
+  width: 85%;
+  height: 85px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  width: 100px;
+  height: 20px;
+  cursor: pointer;
+}
+
+header .nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+header .nav-bar li {
+  margin-left: 30px;
+  font-family: 'DM Serif Display', serif;
+  color: grey;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+header .nav-bar li:hover {
+  color: black;
+}
+
+header .nav-bar .view-plans {
+  border: 2px solid;
+  width: 140px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 2px;
+}
+
+header .nav-bar .view-plans:hover {
+  background-color: #2d2640;
+  color: white;
+}
+
+header .hamburger {
+  display: none;
+}
+
+.insurance-wrapper {
+  width: 100%;
+  background-color: #2d2640;
+  position: relative;
+}
+
+.insurance-wrapper .insurance {
+  width: 85%;
+  height: 570px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.insurance-wrapper .insurance .insurance-text {
+  width: 531px;
+  margin-right: 30px;
+  margin-top: 75px;
+}
+
+.insurance-wrapper .insurance .insurance-text hr {
+  width: 150px;
+}
+
+.insurance-wrapper .insurance .insurance-text h1 {
+  font-size: 60px;
+  width: 450px;
+  color: white;
+  margin-top: 50px;
+}
+
+.insurance-wrapper .insurance .insurance-text p {
+  font-size: 16px;
+  color: #fafafa;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.insurance-wrapper .insurance .insurance-text button {
+  margin-top: 30px;
+  outline: none;
+  border: 2px solid wheat;
+  width: 140px;
+  padding: 10px;
+  background-color: #2d2640;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.insurance-wrapper .insurance .insurance-text button:hover {
+  background-color: white;
+  color: black;
+}
+
+.insurance-wrapper .insurance .insurance-text .pattern-left {
+  position: absolute;
+  left: 0;
+  margin-top: 60px;
+}
+
+.insurance-wrapper .insurance .family .family-image {
+  margin-top: 70px;
+}
+
+.insurance-wrapper .insurance .family .pattern-right {
+  position: absolute;
+  width: 340px;
+  right: 0;
+  margin-top: 0px;
+}
+
+.info {
+  width: 85%;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.info .lineAndText hr {
+  width: 145px;
+}
+
+.info .lineAndText h1 {
+  font-size: 60px;
+  margin-top: 70px;
+}
+
+.info .Offers-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.info .Offers-wrapper .offer h2 {
+  margin-top: 20px;
+}
+
+.info .Offers-wrapper .offer p {
+  margin-top: 20px;
+  width: 352px;
+  line-height: 25px;
+  color: #837d87;
+}
+
+.More-Info {
+  position: relative;
+  width: 85%;
+  height: 230px;
+  margin: auto;
+  margin-top: 200px;
+  background-color: #2d2640;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.More-Info .More-Info-text h1 {
+  color: white;
+  font-size: 50px;
+  width: 60%;
+}
+
+.More-Info .More-Info-Button button {
+  position: relative;
+  outline: none;
+  border: 2px solid wheat;
+  width: 140px;
+  padding: 10px;
+  background-color: #2d2640;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.More-Info .More-Info-Button button:hover {
+  background-color: white;
+  color: black;
+}
+
+.More-Info .More-Info-Button .patter-howWeWork {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 170px;
+  position: relative;
+}
+
+footer .inside-footer {
+  width: 85%;
+  margin: auto;
+}
+
+footer .inside-footer .footer-top-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .inside-footer .footer-top-side .footer-pattern .pattern-footer-image {
+  position: absolute;
+  left: 0;
+  top: -70px;
+}
+
+footer .inside-footer .footer-top-side .Icons img {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+footer .inside-footer .footer-top-side .Icons img:hover {
+  opacity: 0.5;
+}
+
+footer .inside-footer hr {
+  margin-top: 35px;
+}
+
+footer .inside-footer .footer-down-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  margin-top: 40px;
+  width: 85%;
+}
+
+footer .inside-footer .footer-down-side .answers h3 {
+  color: #837d87;
+  text-transform: uppercase;
+}
+
+footer .inside-footer .footer-down-side .answers ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+footer .inside-footer .footer-down-side .answers li {
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer .inside-footer .footer-down-side .answers li:hover {
+  text-decoration: underline;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 150rem;
+}
+
+.main {
+  font-family: 'Karla', sans-serif;
+}
+
+#backgroundColor {
+  display: none;
+}
+
+.family-image-for-mobile,
+.pattern-right-for-mobile,
+.pattern-left-mobile,
+.patter-howWeWork-for-mobile,
+.pattern-footer-for-mobile {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 230rem;
+  }
+  /*header*/
+  header img {
+    z-index: 500;
+  }
+  header .nav-bar {
+    display: none;
+  }
+  header .hamburger {
+    display: inline;
+    width: 35px;
+    height: 30px;
+    z-index: 30;
+  }
+  #backgroundColor {
+    position: absolute;
+    z-index: 10;
+    display: block;
+    margin-top: -40rem;
+    width: 375px;
+    height: 491px;
+    font-family: 'DM Serif Display', serif;
+  }
+  #backgroundColor ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #backgroundColor li {
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  #backgroundColor button {
+    margin-top: 25px;
+    outline: none;
+    border: 2px solid wheat;
+    width: 300px;
+    padding: 10px;
+    background-color: #2b272f;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  #backgroundColor button:hover {
+    background-color: white;
+    color: black;
+  }
+  #backgroundColor img {
+    margin-top: 80px;
+  }
+  /*header*/
+  /*insurance*/
+  .insurance-wrapper {
+    margin-top: 450px;
+    position: relative;
+  }
+  .insurance-wrapper .insurance {
+    margin: 0;
+  }
+  .insurance-wrapper .insurance .insurance-text {
+    width: 375px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .insurance-wrapper .insurance .insurance-text hr {
+    display: none;
+  }
+  .insurance-wrapper .insurance .insurance-text h1 {
+    font-size: 46px;
+    width: 375px;
+  }
+  .insurance-wrapper .insurance .insurance-text p {
+    width: 320px;
+  }
+  .insurance-wrapper .insurance .insurance-text button {
+    margin-top: 40px;
+  }
+  .insurance-wrapper .insurance .insurance-text .pattern-left-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .insurance-wrapper .insurance .family .family-image-for-mobile {
+    position: absolute;
+    display: block;
+    margin-top: -450px;
+    margin-left: -405px;
+    width: 375px;
+  }
+  .insurance-wrapper .insurance .family .pattern-right-for-mobile {
+    display: block;
+    position: absolute;
+    bottom: -170px;
+    right: 0;
+  }
+  /*insurance*/
+  /*info*/
+  .info {
+    width: 375px;
+    margin-top: 130px;
+    text-align: center;
+  }
+  .info .lineAndText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info .lineAndText h1 {
+    font-size: 44px;
+  }
+  .info .Offers-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: none;
+        -ms-flex-align: none;
+            align-items: none;
+    margin-top: 60px;
+  }
+  .info .Offers-wrapper .offer {
+    margin-top: 20px;
+  }
+  .info .Offers-wrapper .offer p {
+    width: 324px;
+  }
+  .More-Info {
+    width: 90%;
+    height: 350px;
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .More-Info .More-Info-text h1 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .More-Info .More-Info-Button .patter-howWeWork-for-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  /*info*/
+  /*footer*/
+  footer .inside-footer .footer-top-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .inside-footer .footer-top-side img {
+    margin-left: 15px;
+  }
+  footer .inside-footer .footer-top-side .pattern-footer-for-mobile {
+    position: absolute;
+    display: block;
+    top: -90px;
+    left: -20px;
+  }
+  footer .inside-footer .footer-top-side .Icons {
+    margin-top: 20px;
+    z-index: 100;
+  }
+  footer .inside-footer .footer-top-side .Icons img {
+    margin-left: 10px;
+  }
+  footer .inside-footer .footer-down-side {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  footer .inside-footer .footer-down-side .answers h3 {
+    margin-top: 30px;
+  }
+  footer .inside-footer .footer-down-side .answers ul {
+    margin-top: 20px;
+  }
+  footer .inside-footer .footer-down-side .answers li {
+    margin-top: 13px;
+  }
+  /*footer*/
+  .pattern-left,
+  .family-image, .pattern-right,
+  .patter-howWeWork,
+  .pattern-footer-image {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

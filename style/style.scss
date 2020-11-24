@@ -1,0 +1,252 @@
+$DarkViolet: hsl(256, 26%, 20%);
+$DarkGrayishViolet: hsl(273, 4%, 51%);
+
+@mixin flex($direction , $justify , $align){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:$justify;
+    align-items:$align;
+}
+
+@import "./Components/header";
+@import "./Components/Insurance";
+@import "./Components/Information";
+@import "./Components/Footer";
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 150rem;
+}
+.main{
+    font-family: 'Karla', sans-serif;
+}
+#backgroundColor{
+    display:none;
+}
+
+.family-image-for-mobile , 
+.pattern-right-for-mobile , 
+.pattern-left-mobile,
+.patter-howWeWork-for-mobile,
+.pattern-footer-for-mobile{
+    display:none;
+}
+
+@media (max-width: 375px){
+    body{
+        height: 230rem;
+    }
+    
+    /*header*/
+    header{
+        img{
+            z-index:500;
+        }
+        .nav-bar{
+            display:none;
+        }
+        .hamburger{
+            display:inline;
+            width:35px;
+            height:30px;
+            z-index:30;
+        }
+    }
+    #backgroundColor{
+        position: absolute;
+        z-index: 10;
+        display:block;
+        margin-top: -40rem;
+        width:375px;
+        height: 491px;
+        font-family: 'DM Serif Display', serif;
+        ul{
+            list-style:none;
+            @include flex(column, none , center)
+        }
+        li{
+            margin-top: 25px;
+            font-size:20px;
+            color:white;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        button{
+            margin-top: 25px;
+            outline:none;
+            border:2px solid wheat;
+            width: 300px;
+            padding:10px;
+            background-color: hsl(270, 9%, 17%);
+            color:white;
+            cursor:pointer;
+            font-size:20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            &:hover{
+                background-color:white;
+                color:black;
+            }
+        }
+        img{
+            margin-top:80px;
+        }
+    }
+    /*header*/
+
+    /*insurance*/
+    .insurance-wrapper{
+        margin-top: 450px;
+        position: relative;
+        .insurance{
+            margin:0;
+            .insurance-text{
+                width:375px;
+                @include flex(column, none , center);
+                text-align:center;
+                hr{
+                    display:none;
+                }
+                h1{
+                    font-size: 46px;
+                    width:375px;
+                }
+                p{
+                    width:320px;
+                }
+                button{
+                    margin-top:40px;
+                }
+                .pattern-left-mobile{
+                    display:block;
+                    position:absolute;
+                    top:0;
+                    left:0;
+                }
+            }
+
+            .family{
+                .family-image-for-mobile{
+                    position:absolute;
+                    display:block;
+                    margin-top:-450px;
+                    margin-left: -405px;
+                    width:375px;
+                }
+
+                .pattern-right-for-mobile{
+                    display:block;
+                    position:absolute;
+                    bottom:-170px;
+                    right:0;
+                }
+            }
+        }
+    }
+
+    /*insurance*/
+
+    /*info*/
+    .info{
+        width:375px;
+        margin-top:130px;
+        text-align: center;
+        .lineAndText{
+            @include flex(column,none, center);
+            h1{
+                font-size: 44px;
+            }
+        }
+        .Offers-wrapper{
+            @include flex(column, center, none);
+            margin-top: 60px;
+            .offer{
+                margin-top:20px;
+                p{
+                    width:324px;
+                }
+            }
+        }
+    }
+
+    .More-Info{
+        width:90%;
+        height: 350px;
+        margin-top: 100px;
+        @include flex(column , space-evenly , center);
+        .More-Info-text{
+            h1{
+                font-size:40px;
+                width:100%;
+                text-align:center;
+            }
+        }
+        .More-Info-Button{
+            .patter-howWeWork-for-mobile{
+                display:block;
+                position:absolute;
+                top:0;
+                right:0;
+            }
+        }
+    }
+
+    /*info*/
+
+    /*footer*/
+    footer{
+        .inside-footer{
+            .footer-top-side{
+                @include flex(column, center, center);
+                img{
+                    margin-left: 15px;
+                }
+                .pattern-footer-for-mobile{
+                    position:absolute;
+                    display:block;
+                    top: -90px;
+                    left:-20px;
+                }
+                .Icons{
+                    margin-top:20px;
+                    z-index: 100;
+                    img{
+                        margin-left:10px;
+                    }
+                }
+            }
+
+            .footer-down-side{
+                width:100%;
+                @include flex(column , space-around, center);
+                text-align: center;
+                margin-top: 20px;
+                .answers{
+                    h3{
+                        margin-top: 30px;
+                        
+                    }
+                    ul{
+                        margin-top: 20px;
+                    }
+                    li{
+                        margin-top: 13px;
+                    }
+                }
+            }
+        }
+    }
+    /*footer*/
+
+    .pattern-left,
+    .family-image, .pattern-right , 
+    .patter-howWeWork,
+    .pattern-footer-image{
+        display:none;
+    }
+}
