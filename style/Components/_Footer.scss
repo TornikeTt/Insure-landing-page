@@ -1,0 +1,57 @@
+footer{
+    width:100%;
+    margin-top: 170px;
+    position:relative;
+    .inside-footer{
+        width:85%;
+        margin:auto;       
+        .footer-top-side{
+            @include flex(row , space-between, center);
+            .footer-pattern{
+                .pattern-footer-image{
+                    position:absolute;
+                    left:0;
+                    top:-70px;
+                }
+            }
+            .Icons{
+                img{
+                    margin-left: 15px;
+                    cursor:pointer;
+                    &:hover{
+                        opacity:0.5;
+                    }
+                }
+            }
+        }
+
+        hr{
+            margin-top:35px;
+        }
+
+        .footer-down-side{
+            @include flex(row , space-between, none);
+            margin-top: 40px;
+            width:85%;
+            .answers{
+                h3{
+                    color: $DarkGrayishViolet;
+                    text-transform: uppercase;
+                }
+                ul{
+                    margin-top:30px;
+                    list-style: none;
+                }
+                li{
+                    margin-top:15px;
+                    cursor:pointer;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
