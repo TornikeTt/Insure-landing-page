@@ -368,7 +368,7 @@ body {
     position: absolute;
     z-index: 10;
     display: block;
-    margin-top: -40rem;
+    margin-top: -50rem;
     width: 375px;
     height: 491px;
     font-family: 'DM Serif Display', serif;
@@ -421,6 +421,7 @@ body {
   .insurance-wrapper {
     margin-top: 450px;
     position: relative;
+    width: 375px;
   }
   .insurance-wrapper .insurance {
     margin: 0;
