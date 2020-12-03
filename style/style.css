@@ -373,7 +373,7 @@ body {
     height: 491px;
     font-family: 'DM Serif Display', serif;
   }
-  #backgroundColor ul {
+  #backgroundColor div {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
